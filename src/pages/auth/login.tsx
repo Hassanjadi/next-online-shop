@@ -1,7 +1,9 @@
+import LoginView from "@/components/views/auth/Login";
+
 const login = () => {
   return (
     <div>
-      <div>Ini Halaman Login</div>
+      <LoginView />
     </div>
   );
 };
